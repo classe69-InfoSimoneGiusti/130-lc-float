@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    border: solid 5px green;
+}
+
+/* voglio renderlo flottante a sx */
+.red {
+    float: left;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+/*voglio rendere la classe .blue flottante a dx */
+.blue {
+    float:right;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.card {
+    width: calc(100% / 3);
+    border: solid 1px black;
+    height: 300px;
+    float: left;
+}
